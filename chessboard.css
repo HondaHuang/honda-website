@@ -1,0 +1,38 @@
+.chessboard {
+    width: 40vw;
+    height: 40vw;
+    margin: 15px;
+    border: 10px solid #333;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.black {
+    float: left;
+    width: 5vw;
+    height: 5vw;
+    background-color: #999;
+      font-size:15px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 5vw;
+    height: 5vw;
+    background-color: #fff;
+    font-size:20px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.piece {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
